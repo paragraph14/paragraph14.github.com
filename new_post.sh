@@ -12,9 +12,9 @@ if test $# -ne 1; then
 fi
 
 frontMatterLine=---
-layout=layout:post
+layout="layout: post"
 title=title:
-date=date:`date "+%Y-%m-%d %H:%M:%S +0900"`
+date="date: `date "+%Y-%m-%d %H:%M:%S +0900"`"
 file=_posts/`date +%Y-%m-%d`-${1}.md
 
 touch ${file}
