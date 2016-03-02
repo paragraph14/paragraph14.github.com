@@ -16,6 +16,7 @@ twitter_username: paragraph14
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 gems:
   - jekyll-feed
