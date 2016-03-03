@@ -1,6 +1,6 @@
 ---
 layout: post
-title: qFixHowm で markdown
+title: "qFixHowm で markdown"
 date: 2016-03-03 14:39:54 +0900
 published: false
 ---
@@ -50,14 +50,19 @@ let QFixHowm_Title = '#'
 1. 書く
 
 ## 過去のメモの処理
+
 タイトル記号を "=" から "#" に変更すると、過去に作成したメモのタイトルが認識されなくなってしまう。
+シェルで適当に置換しました。
 
-### タイトル記号の置換
+## PreVimOpen がうごかない
 
-### 拡張子の変更
+PreVimOpen が動かない問題があるようです。
+
+[コマンドprevimを実行してもブラウザが開かない](https://github.com/kannokanno/previm/issues/46)
+
 
 ## 参考
-https://sites.google.com/site/fudist/Home/qfixhowm/tips/vimwiki#TOC-Ver.3-
-http://uguisu.skr.jp/Windows/find_xargs2.html
-http://qiita.com/kkyouhei/items/b4ff839a2f36ba194df3
+https://sites.google.com/site/fudist/Home/qfixhowm/tips/vimwiki  
+http://uguisu.skr.jp/Windows/find_xargs2.html  
+http://qiita.com/kkyouhei/items/b4ff839a2f36ba194df3  
 
