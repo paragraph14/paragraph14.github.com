@@ -2,7 +2,7 @@
 layout: post
 title: "qFixHowm で markdown"
 date: 2016-03-03 14:39:54 +0900
-published: false
+published: true
 ---
 
 qFixHownでmarkdownでメモをとりたかった。
@@ -23,22 +23,22 @@ NeoBundle 'godlygeek/tabular'
 
 ## qFixhowm の設定
 
-拡張子mdをmarkdownとして設定する。
+拡張子mdをmarkdownとして認識するように設定します。
 
 ```vimrc
 au BufRead,BufNewFile *.md set filetype=markdown
 ```
 
-qFixhowmの拡張子をmdにする。
+qFixhowmの拡張子をmdにします。
 
 ```vimrc
-" qFixhowmの拡張子をmdにする。
+" qFixhowmの拡張子をmd
 let howm_filename = '%Y/%m/%Y-%m-%d-%H%M%S.md'
 
 " ファイルタイプをmarkdownに変更
 let QFixHowm_FileType = 'markdown'
 
-" タイトル記号を # に変更する
+" タイトル記号を # に変更
 let QFixHowm_Title = '#'
 ```
 
@@ -51,7 +51,7 @@ let QFixHowm_Title = '#'
 
 ## 過去のメモの処理
 
-タイトル記号を "=" から "#" に変更すると、過去に作成したメモのタイトルが認識されなくなってしまう。
+タイトル記号を "=" から "#" に変更すると、過去に作成したメモのタイトルが認識されなくなってしまいます。
 シェルで適当に置換しました。
 
 ## PreVimOpen がうごかない
@@ -62,7 +62,7 @@ PreVimOpen が動かない問題があるようです。
 
 
 ## 参考
-https://sites.google.com/site/fudist/Home/qfixhowm/tips/vimwiki  
-http://uguisu.skr.jp/Windows/find_xargs2.html  
-http://qiita.com/kkyouhei/items/b4ff839a2f36ba194df3  
+* [QFixHowm - MarkdownとVimWiki](https://sites.google.com/site/fudist/Home/qfixhowm/tips/vimwiki)
+* [find／xargsを使ったファイル・ディレクトリ名の一括置換／一括作成コマンド一覧](http://uguisu.skr.jp/Windows/find_xargs2.html)
+* [複数のファイル内の文字列をまとめて置換するLinuxコマンド](http://qiita.com/kkyouhei/items/b4ff839a2f36ba194df3)
 
