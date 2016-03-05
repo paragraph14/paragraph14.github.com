@@ -16,7 +16,7 @@ layout="layout: post"
 title=title:
 pub="published: true"
 date="date: `date "+%Y-%m-%d %H:%M:%S +0900"`"
-file=_posts/`date +%Y-%m-%d`-${1}.md
+file=_drafts/${1}.md
 
 touch ${file}
 
