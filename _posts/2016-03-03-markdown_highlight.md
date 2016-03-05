@@ -10,11 +10,11 @@ vim で markdown を書くのに [vim-markdown](https://github.com/plasticboy/vi
 
 これが
 
-[!nohl]({{ site.url }}/assets/vim-markdown-nohl.png)
+[!nohl]({{ site.url }}/assets/vim-markdown-nohl.jpg)
 
 こうなる
 
-[!hl]({{ site.url }}/assets/vim-markdown-hl.png)
+[!hl]({{ site.url }}/assets/vim-markdown-hl.jpg)
 
 あとさっき見つけたけど
 
