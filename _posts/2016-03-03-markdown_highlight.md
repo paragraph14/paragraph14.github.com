@@ -2,7 +2,7 @@
 layout: post
 title: "vim-markdown のシンタックスハイライトが便利"
 date: 2016-03-03 14:55:06 +0900
-published: false
+published: true
 ---
 
 vim で markdown を書くのに [vim-markdown](https://github.com/plasticboy/vim-markdown) を使っています。
@@ -10,11 +10,11 @@ vim で markdown を書くのに [vim-markdown](https://github.com/plasticboy/vi
 
 これが
 
-[!nohl]({{ site.url }}/assets/vim-markdown-nohl.jpg)
+![nohl]({{ site.baseurl }}/assets/vim-markdown-nohl.jpg)
 
 こうなる
 
-[!hl]({{ site.url }}/assets/vim-markdown-hl.jpg)
+![hl]({{ site.baseurl }}/assets/vim-markdown-hl.jpg)
 
 あとさっき見つけたけど
 
