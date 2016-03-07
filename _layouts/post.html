@@ -12,4 +12,12 @@ layout: default
     {{ content }}
   </div>
 
+{% if page.previous %}
+    &lt;&lt; <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+{% endif %}
+    ｜
+{% if page.next %}
+    <a href="{{ page.next.url }}">{{ page.next.title }}</a> &gt;&gt;
+{% endif %}
+
 </article>
