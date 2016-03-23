@@ -10,7 +10,7 @@ title: 書くところ
 email:
 description: 書くところです
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://paragraph14.io" # the base hostname & protocol for your site
+url: "http://paragraph14.github.io" # the base hostname & protocol for your site
 twitter_username: paragraph_14
 # github_username:
 
