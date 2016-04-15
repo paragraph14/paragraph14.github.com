@@ -26,3 +26,5 @@ echo $title >> $file
 echo $pub >> $file
 echo $date >> $file
 echo $frontMatterLine >> $file
+
+vim ${file}
