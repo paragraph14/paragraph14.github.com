@@ -1,5 +1,5 @@
 #!/bin/sh
 
-git add _post/
+git add _posts/
 git commit -m "add post"
 git push
