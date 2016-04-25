@@ -1,6 +1,7 @@
 #!/bin/bash
-post=$( ls _posts/ | peco)
-if [ -n $post ]; then
+post=$( find _posts -name "*.md" | sort -r | peco)
+if [ -n "$post" ]; then
+    vim $post
+else
     exit
 fi
-vim "_posts/$post"

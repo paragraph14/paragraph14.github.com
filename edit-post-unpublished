@@ -1,0 +1,7 @@
+#!/bin/bash
+post=$( find _posts -name "*.md" | sort -r | xargs grep "published: false" -l | peco )
+if [ -n "$post" ]; then
+    vim $post
+else
+    exit
+fi
