@@ -1,3 +1,6 @@
-#!/bin/sh
-vim "_posts/$( ls _posts/ | peco)"
-
+#!/bin/bash
+post=$( ls _posts/ | peco)
+if [ -n $post ]; then
+    exit
+fi
+vim "_posts/$post"
