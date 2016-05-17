@@ -11,7 +11,7 @@ date: 2016-05-16 00:55:04 +0900
 
 ## 生成する
 [jekyll](http://jekyllrb-ja.github.io/) という静的サイトジェネレータを使っています。
-マークダウンから HTML を生成してくれるもので、これをサーバーに置くとブログになります。
+マークダウンから HTML を生成してくれるもので、これをサーバーに置くと Blog になります。
 
 ## 置く
 Blog は [github pages](https://pages.github.com/) に置いてあります。
@@ -31,32 +31,9 @@ date: 2016-05-16 00:55:04 +0900
 ```
 
 いちいち手書きするのもだるいのでシェルスクリプトでやっています。
-引数にファイル名を与えると、現在の date を現在時刻で埋めてファイルをつくり、かつ vim で編集に入ってくれます。
+引数にファイル名を与えると、date を現在時刻で埋めてファイルをつくり、かつ vim で編集に入ってくれます。
 
-```bash
-if test $# -ne 1; then
-    echo "pleas post name"
-    exit
-fi
-
-frontMatterLine=---
-layout="layout: post"
-title=title:
-pub="published: true"
-date="date: `date "+%Y-%m-%d %H:%M:%S +0900"`"
-file=_posts/`date +%Y-%m-%d`-${1}.md
-
-touch ${file}
-
-echo $frontMatterLine > $file
-echo $layout >> $file
-echo $title >> $file
-echo $pub >> $file
-echo $date >> $file
-echo $frontMatterLine >> $file
-
-vim ${file}
-```
+<script src="https://gist.github.com/paragraph14/832dcfd5c4eb307c562cb4032d3201ff.js"></script>
 
 これを new-post.sh という名前にして、以下のようにやると新しい記事を書きはじめられます。
 
@@ -65,5 +42,19 @@ vim ${file}
 ```
 
 ## 編集する
+書いたけどまだ公開したくないときは front matter で published: false としておくと jekyll のビルドに含まれなくなります。
+
+ところで以前書いた記事を編集しようというとき、ファイル一覧から探すのがちょっとめんどくさいので peco をつかってちょっとだけ便利にしています。
+
+<script src="https://gist.github.com/paragraph14/b1a84e39a2eb2370cbf5ee97782c8a86.js"></script>
+
+published: false になっている記事だけ表示するのもあります。
+
+<script src="https://gist.github.com/paragraph14/72d8cf9ffbd6e76cc745de3f045c8cdd.js"></script>
+
 
 ## 公開する
+記事ができたらあとは push するだけです。
+
+<script src="https://gist.github.com/paragraph14/811987bf5eb6930fb25d2ad0f7aae19b.js"></script>
+
