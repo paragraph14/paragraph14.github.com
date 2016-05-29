@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Blog を書くためのものとか
-published: false
-date: 2016-05-16 00:55:04 +0900
+published: true
+date: 2016-05-29 00:55:04 +0900
 ---
 
 これを読んでいる方はご存知かもしれませんが、わたしはブログを書いています。
@@ -44,7 +44,7 @@ date: 2016-05-16 00:55:04 +0900
 ## 編集する
 書いたけどまだ公開したくないときは front matter で published: false としておくと jekyll のビルドに含まれなくなります。
 
-ところで以前書いた記事を編集しようというとき、ファイル一覧から探すのがちょっとめんどくさいので peco をつかってちょっとだけ便利にしています。
+ところで以前書いた記事を編集しようというとき、ファイル一覧から探すのがちょっとめんどくさいので peco をつかってちょっとだけ便利にしています。これを実行すると、マークダウンのファイルが一覧されて、選択すると vim で開いてくれます。
 
 <script src="https://gist.github.com/paragraph14/b1a84e39a2eb2370cbf5ee97782c8a86.js"></script>
 
@@ -52,6 +52,12 @@ published: false になっている記事だけ表示するのもあります。
 
 <script src="https://gist.github.com/paragraph14/72d8cf9ffbd6e76cc745de3f045c8cdd.js"></script>
 
+## チェック
+ローカルでプレビューします。
+
+```bash
+% jekyll serve
+```
 
 ## 公開する
 記事ができたらあとは push するだけです。
