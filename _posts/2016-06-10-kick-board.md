@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 夜の散歩とキックボード
-published: false
-date: 2016-06-10 10:12:54 +0900
+published: true
+date: 2016-06-10 10:00:00 +0900
 ---
 
 最近、夜に散歩するのが好きです。
