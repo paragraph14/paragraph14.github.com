@@ -5,7 +5,7 @@ published: true
 date: 2016-06-23 07:16:44 +0900
 ---
 
-書いました。
+買いました。
 
 <div class='pixels-photo'>
 <p>
