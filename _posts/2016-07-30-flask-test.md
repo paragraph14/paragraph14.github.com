@@ -39,7 +39,7 @@ date: 2016-07-30 23:50:11 +0900
 [pyenv](https://github.com/yyuu/pyenv) は Simple Python version management なソフトです。
 python のバージョンを手軽に切り替えられるものです。
 
-github リポジトリの README.md にインスール方法が書いてあるのでそのとおりにやっていきましょう。
+github リポジトリの README.md にインストール方法が書いてあるのでそのとおりにやっていきましょう。
 こういうときに下手に日本語のブログ記事などを参考にするとはまって時間を無駄にします。
 
 pyenv がイントールできたら、python 3.5.0 をインストールします。
@@ -86,7 +86,7 @@ py.test
 ```
 
 というコマンドを実行すればいいみたいです。
-まずその pytest とやらをインスールしてテストを実行してみましょう。
+まずその pytest とやらをインストールしてテストを実行してみましょう。
 
 ```bash
 pip install pytest
@@ -102,7 +102,7 @@ ERROR: could not load ~/flask/tests/conftest.py
 
 flask モジュールがインポートできなかったようです。
 テスト対象が見つからなかったのでテストできなかったみたいですね。
-インスールします。インストールしたら確認します。
+インストールします。インストールしたら確認します。
 
 ```bash
 python setup.py install
