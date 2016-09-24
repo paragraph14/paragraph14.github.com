@@ -23,6 +23,8 @@ date: 2016-09-25 02:17:15 +0900
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/goto_fourteen/29272653053/in/dateposted-public/" title="P9240065.jpg"><img src="https://c6.staticflickr.com/9/8160/29272653053_1e65972330_z.jpg" width="640" height="480" alt="P9240065.jpg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/goto_fourteen/29272655973/in/dateposted-public/" title="P9240071.jpg"><img src="https://c6.staticflickr.com/6/5682/29272655973_9ac7a629e8_z.jpg" width="640" height="480" alt="P9240071.jpg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/goto_fourteen/29272651813/in/dateposted-public/" title="P9240044.jpg"><img src="https://c6.staticflickr.com/6/5506/29272651813_19d4a0d4d3_z.jpg" width="480" height="640" alt="P9240044.jpg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/goto_fourteen/29272650243/in/dateposted-public/" title="P9240037.jpg"><img src="https://c4.staticflickr.com/9/8529/29272650243_a641104bf6_z.jpg" width="640" height="480" alt="P9240037.jpg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
